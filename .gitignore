@@ -1,0 +1,34 @@
+# Visual Studio и .NET
+.vs/
+*.suo
+*.user
+*.pdb
+*.obj
+*.o
+*.ncb
+*.aps
+*.bsc
+*.sbr
+*.buildlog
+*.cache
+*.tlog
+_ReSharper.*/
+[Pp]ackages/
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+*.kps
+*.log
+*.lock.json
+project.lock.json
+*.ide.log
+
+# JetBrains Rider
+.idea/
+
+# Node.js / Frontend
+PixChat.Frontend/node_modules/
+PixChat.Frontend/build/ # Если ваш фронтенд билдится в папку 'build'
+PixChat.Frontend/dist/  # Если ваш фронтенд билдится в папку 'dist'
+PixChat.Frontend/.env
